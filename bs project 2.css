@@ -1,0 +1,112 @@
+html, body {
+    overflow-x: hidden;
+} 
+ 
+.sec2{
+    background-color: darkcyan;
+    min-height: 500px;
+}
+.inner-box2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+
+}
+.bu{
+    background-color: white;
+    color: darkcyan;
+}
+.inner-box3{
+   text-align: center;
+}
+.bu1{
+    background-color: white;
+    color: darkcyan;
+}
+.hr1{
+   width: 20%;
+   margin: auto;
+}
+.hr2{
+    width: 60%;
+    margin: auto;
+}
+.sec3{
+    margin: 20px;
+}
+.sec4{
+    background-color: darkcyan;
+    position: relative;
+}
+.inner-box4{
+    padding: 15px;
+    text-align: center;
+}
+.inner-box5{
+    text-align: center;
+    padding: 15px;
+}
+.inner-box6{
+    text-align: center;
+    padding: 15px;
+}
+.para{
+    text-align: justify;
+}
+.sec5{
+    background-color: black;
+}
+.bu2{
+    background-color: white;
+    color: darkcyan;
+}
+.inner-box7{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.sec8{
+    min-height: 500px;
+    background-color: white;
+    text-align: center;
+}
+.inner-box8{
+    margin: 10px 0px;
+    height: 250px;
+
+  
+}
+.img-fluid{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.sec9{
+    background-color: black;
+}
+.inner-box9{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.bu3{
+    background-color: white;
+    color: darkcyan;
+}
+.inner-box10{
+    text-align: center;
+    padding: 15px;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid darkcyan;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    transform: translatex(-50%, -50%);
+}
